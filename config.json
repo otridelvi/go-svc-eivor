@@ -1,0 +1,19 @@
+{
+  "apps": {
+    "name": "Eivor",
+    "address": "127.0.0.1",
+    "version" : "1.0.0",
+    "httpPort" : 8821
+  },
+  "database" : {
+    "username":"merchant",
+    "password":"merchant",
+    "name":"merchant_user_service",
+    "schema":"pananjakan",
+    "host":"db-postgresql.linkaja.dev",
+    "port":5432,
+    "minIdleConnections":10,
+    "maxOpenConnections":30,
+    "debugMode":false
+  }
+}
